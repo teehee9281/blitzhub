@@ -1,0 +1,180 @@
+
+
+body {
+    background-image: url(Themes/Wallpaper/blackback.jpg);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Demo;
+    src: url(Fonts/Mont-HeavyDEMO.otf);
+}
+
+@font-face {
+    font-family: ColumnFont;
+    src: url(Fonts/Wicked\ Mouse\ Demo.otf);
+}
+
+
+@font-face {
+    font-family: GoBold;
+    src: url(Fonts/Gobold\ Regular.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+button:hover {
+    transform: scale(1.10);
+}
+
+.container-apps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.3em;
+    flex-direction: row;
+    margin-top: 10px
+}
+.column {
+    bottom: -20vh;
+    position: relative; 
+    width: 145px;
+    transition: all .2s ease;
+    cursor: pointer;
+    background: #353535; 
+    color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: GoBold;
+    overflow: hidden; 
+}
+
+.column img {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 69%; 
+    border-radius: 10px;
+    transition: all .2s ease;
+   
+}
+.column p {
+    width: 145px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--text-primary);
+    text-shadow: 0 0 30px rgba(0,0,0,.5);
+    padding-top: 136px;
+    padding-bottom: 12px;
+    
+}
+
+.navbar {
+    top: 0;
+    letter-spacing: 2px;
+    font-size: 22px;
+    left: 0;
+    right: 0;
+    min-height: 8vh; /* Adjust for thickness */
+    padding: 0 25px; /* Keep horizontal padding */
+    box-sizing: border-box;
+    background-color: var(--divback);
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, .5);
+    backdrop-filter: var(--background-filter);
+    transition: .35s ease;
+    border-radius: 15px;
+    margin: 15px;
+    z-index: 100;
+    position: fixed;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-around;
+}
+
+.navbar-title {
+    color: var(--text-primary); /* Ensure this matches the link color */
+    font-family: var(--navbar-font); /* Use the same font as links */
+    font-size: 22px; /* Match the font size of anchor tags */
+    font-weight: 800; /* Ensure the same weight */
+    margin-right: 20px; /* Space between title and links */
+}
+
+.navbar-links {
+    display: flex; /* Use flexbox for links */
+    justify-content: center; /* Center the anchor tags */
+    flex-grow: 1; /* Allow this section to take up available space */
+    margin-left: -110px; /* Move links 5 pixels to the left */
+
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: var(--text-primary);
+    font-family: var(--navbar-font);
+    text-transform: uppercase;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: 800;
+    transition: transform 0.3s;
+    line-height: 1;
+    margin: 0 20px; /* Adjust space between each link */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--text-primary);
+    font-family: var(--navbar-font);
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 22px; /* Match the title size */
+    cursor: pointer;
+    font-weight: 800;
+    transition: transform 0.3s;
+    line-height: 1; /* Adjust line height to reduce thickness */
+}
+
+.navbar a i {
+    margin-right: 8px;
+    transition: transform 0.3s;
+}
+.navbar a:hover {
+    transform: scale(1.1);
+}
+.navbar a:hover i {
+    transform: scale(1.1);
+}
+
+:root {
+    --text-primary: #fff;
+    --navbar-font: Demo;
+    --divback: rgba(255, 255, 255, 0.02);
+    --background-filter: blur(10px) brightness(80%);
+}
+
+#suggest p {
+    color:yellow;
+}
+
+#search-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 18vh;
+    
+}
+
+#searchbar {
+    width: 50vh;
+    height: 5vh;
+    border-radius: 9px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+

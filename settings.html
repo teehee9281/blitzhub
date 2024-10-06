@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <meta charset="utf-8" />
+        <title>Home</title>
+        <link rel="stylesheet" href="stylesettings.css" />
+        <link id="favicon" rel="icon" href="/CloakIMGs/Classroom.png" type="image/x-icon">
+    </head>
+    <body>
+
+        <div class="navbar">
+            <p class="navbar-title">BLITZHUB</p>
+            <div class="navbar-links">
+              <a href="index.html" class="navbar-link"><i class="fas fa-gamepad"></i>Games</a>
+              <a href="apps.html" class="navbar-link"><i class="fas fa-laptop"></i>Apps</a>
+              <a href="settings.html" class="navbar-link"><i class="fas fa-cog"></i>Settings</a>
+            </div>
+          </div>
+          
+        <div class="settings-container">
+            <div class="settings-sec">
+                <h3>Panic Key</h3>
+ <p>To open a new website immediately, press the panic key. If you have multiple panic keys, enter them separated by commas (for instance, 1,2,3)"
+ </p>
+        <input type="text" id="keyInput" placeholder="Panic Key(s) [One Character]" class="keyform" maxlength="1" >
+        <input class="keyform" placeholder="What Link?" type="text" id="linkChoice" autocomplete="off">
+        <button class="keyform-button" value="Save" onclick="saveKeyLink()" id="saveButton">Save</button>
+            </div>
+      
+        <div class="settings-sec">
+          <h3>Tab Cloaker</h3>
+          <h2>Must click save to load</h2>
+<p>To help avoid teachers, you can use our tab cloaker to change the icon and the name of our tab for when a teacher walks by.</p>
+  <select id="dropdown" onchange="changeCloak()">
+    <option value="Google-Classroom">Google Classroom</option>
+    <option value="Clever">Clever | Portal</option>
+    <option value="Google-Docs">Google Docs</option>
+    <option value="Powerschool">Power School | Weekly Schedule</option>
+    <option value="Powerschool-2">Power School | Grades and Attendance</option>
+    <option value="Powerschool-3">Power School | Meeting Attendance</option>
+  </select>
+  <button class="keyform-button" value="Save" onclick="saveCloak()" id="cloakSaveButton">Save</button>
+      </div>
+      
+      <div class="settings-sec">
+        <h3>About:Blank Tab</h3>
+    <p>Want to hide our link from teachers when they walk by? Click the button below and open our site in about:blank. </p>
+        <button class="keyform-button" onclick="aboutBlank()">Open About:Blank</button>
+      </div>
+  </div>
+
+        <script src="local.js">
+        </script>
+    </body>
+</html>

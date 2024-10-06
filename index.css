@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: 'faSolid';
+    src: url(Fonts/fa-solid-900.woff2);
+}
+
+@font-face {
+    font-family: 'Slim';
+    src: url(Fonts/slim.woff2);
+}
+body {
+ background-color: black;
+ font-family: 'faSolid', sans-serif;
+}
+
+nav {
+    padding: 5px 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #262626;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13vh;
+    font-family: 'Slim' !important;
+    font-weight: 600;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 25vh;
+}
+

@@ -1,0 +1,204 @@
+@font-face {
+  font-family: Demo;
+  src: url(Fonts/Mont-HeavyDEMO.otf);
+}
+
+@font-face {
+  font-family: ColumnFont;
+  src: url(Fonts/Wicked\ Mouse\ Demo.otf);
+}
+
+
+@font-face {
+  font-family: GoBold;
+  src: url(Fonts/Gobold\ Regular.otf);
+}
+
+.settings-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 20% 20px 20px;
+}
+
+.settings-sec {
+  background-color: #3a3a3a;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+  width: 400px;
+  transition: all .3s ease;
+  background: linear-gradient(135deg, #555, #333);
+}
+
+h3 {
+  color:white;
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+h2 {
+  color: white;
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.navbar {
+  top: 0;
+  letter-spacing: 2px;
+  font-size: 22px;
+  left: 0;
+  right: 0;
+  min-height: 8vh; /* Adjust for thickness */
+  padding: 0 25px; /* Keep horizontal padding */
+  box-sizing: border-box;
+  background-color: var(--divback);
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, .5);
+  backdrop-filter: var(--background-filter);
+  transition: .35s ease;
+  border-radius: 15px;
+  margin: 15px;
+  z-index: 100;
+  position: fixed;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-around;
+}
+
+.navbar-title {
+  color: var(--text-primary); /* Ensure this matches the link color */
+  font-family: var(--navbar-font); /* Use the same font as links */
+  font-size: 22px; /* Match the font size of anchor tags */
+  font-weight: 800; /* Ensure the same weight */
+  margin-right: 20px; /* Space between title and links */
+}
+
+.navbar-links {
+  display: flex; /* Use flexbox for links */
+  justify-content: center; /* Center the anchor tags */
+  flex-grow: 1; /* Allow this section to take up available space */
+  margin-left: -110px; /* Move links 5 pixels to the left */
+
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: var(--text-primary);
+  font-family: var(--navbar-font);
+  text-transform: uppercase;
+  font-size: 22px;
+  cursor: pointer;
+  font-weight: 800;
+  transition: transform 0.3s;
+  line-height: 1;
+  margin: 0 20px; /* Adjust space between each link */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--text-primary);
+  font-family: var(--navbar-font);
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-size: 22px; /* Match the title size */
+  cursor: pointer;
+  font-weight: 800;
+  transition: transform 0.3s;
+  line-height: 1; /* Adjust line height to reduce thickness */
+}
+
+.navbar a i {
+  margin-right: 8px;
+  transition: transform 0.3s;
+}
+.navbar a:hover {
+  transform: scale(1.1);
+}
+.navbar a:hover i {
+  transform: scale(1.1);
+}
+
+:root {
+  --text-primary: #fff;
+  --navbar-font: Demo;
+  --divback: rgba(255, 255, 255, 0.02);
+  --background-filter: blur(10px) brightness(80%);
+}
+
+body {
+  background-image: url(Themes/Wallpaper/blackback.jpg);
+  background-size: cover;
+  font-family: inter, sans-serif;
+}
+
+p {
+  color: #aaa
+}
+
+.keyform {
+  padding: 15px;
+  width: 91%;
+  border-radius: 12px;
+  background-color: #333;
+  text-align: center;
+  font-size: 20px;
+  border: 2px solid #444;
+  outline: none;
+  color: #fff;
+  margin-top: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.keyform:focus {
+  background: linear-gradient(135deg, #444, #666);
+  border-color: #666;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  transform: scale(1.1);
+}
+
+.keyform::placeholder {
+  color: #bbb;
+  font-size: 18px;
+  font-style: italic;
+}
+
+
+.keyform-button {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border: 2px solid #444;
+    font-size: 20px;
+    transition: .2s;
+    margin-top: 10px;
+    background-color: #333;
+    padding: .5rem;
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+select {
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #333;
+  color: white;
+  font-size: 20px;
+  border: 2px solid #444;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.keyform-button:hover {
+  cursor: pointer;
+  transform: scale(1.10);
+}

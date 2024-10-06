@@ -188,7 +188,7 @@ function aboutBlank() {
 }
 
 function Suggestion() {
-  window.open("https://forms.gle/ds4gGs5zM2ZTB3Wq8", "_blank");
+  window.open("https://forms.gle/zN5qsxYC7TxUSqt37", "_blank");
 }
 
 function openFnaf1() {

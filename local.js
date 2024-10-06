@@ -360,7 +360,7 @@ function openForces() {
 }
 
 function openKarts() {
-  openWindow('https://smashkartsonline.github.io/v/smash-karts-2.5.0/', 'Google Docs', 'CloakIMGs/docs.ico');
+  openWindow('https://smashkarts.io/', 'Google Docs', 'CloakIMGs/docs.ico');
 }
 function openFishing() {
   alert("The progress doesn't save when closed, so don't close this tab");

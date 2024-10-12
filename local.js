@@ -187,7 +187,11 @@ function aboutBlank() {
   openWindow('https://teehee9281.github.io/blitz', 'Google Docs', 'CloakIMGs/docs.ico')
 }
 
-function Suggestion() {
+function SuggestionGames() {
+  window.open("https://forms.gle/h9paBMUxXNSpVNbC6", "_blank");
+}
+
+function SuggestionApps() {
   window.open("https://forms.gle/zN5qsxYC7TxUSqt37", "_blank");
 }
 

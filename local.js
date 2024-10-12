@@ -238,7 +238,7 @@ function openSlope() {
 
 
 function openBacon() {
-  openWindow("https://tybsi.com/games/bacon-may-die/index.html", 'Google Docs', 'CloakIMGs/docs.ico');
+  openWindow("https://gamaverse.com/c/f/g/bacon-may-die/", 'Google Docs', 'CloakIMGs/docs.ico');
 }
 
 

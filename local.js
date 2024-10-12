@@ -254,11 +254,11 @@ function openCluster() {
   openWindow("https://clusterrush.io/game/cluster-rush/", 'Google Docs', 'CloakIMGs/docs.ico');
 }
 function openFnW() {
-  openWindow("https://easytutoring.app/gamefiles/fireboywatergirl/", 'Google Docs', 'CloakIMGs/docs.ico');
+  openWindow("https://html5.gamedistribution.com/a55c9cc9c21e4fc683c8c6857f3d0c75/?gd_sdk_referrer_url=https://play.gilect.com/game?title=fireboyandwatergirl1/", 'Google Docs', 'CloakIMGs/docs.ico');
 }
 
 function LOL() {
-  openWindow("https://purepro4561.github.io/1v1-Lol/#", 'Google Docs', 'CloakIMGs/docs.ico')
+  openWindow("https://1v1lol.gitlab.io/1v1-lol-2/", 'Google Docs', 'CloakIMGs/docs.ico')
 }
 
 function FNF7() {

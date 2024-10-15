@@ -377,6 +377,11 @@ function openBasketballStars() {
   openWindow('https://games.builds.gamepix.com/35LBE/6684084835524280320/index.html?sid=e4515&lang=en&namespace=basketball-stars', 'Google Docs', 'CloakIMGs/docs.ico');
 }
 
+function openBitLife() {
+  openWindow('https://ubg365.github.io/bitlife-life-simulator/play.html', 'Google Docs', 'CloakIMGs/docs.ico');
+}
+
+
 // Apps
 
 function cymath() {

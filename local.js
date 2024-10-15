@@ -381,6 +381,9 @@ function openBitLife() {
   openWindow('https://ubg365.github.io/bitlife-life-simulator/play.html', 'Google Docs', 'CloakIMGs/docs.ico');
 }
 
+function openBottle() {
+  openWindow('https://geometryspot.help/bottleflip3d.html', 'Google Docs', 'CloakIMGs/docs.ico');
+}
 
 // Apps
 

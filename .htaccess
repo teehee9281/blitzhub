@@ -6,6 +6,6 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [L]
 
 # Clean URLs without .html
-RewriteRule ^games/?$ index.html [L]
+RewriteRule ^index/?$ index.html [L]
 RewriteRule ^apps/?$ apps.html [L]
 RewriteRule ^settings/?$ settings.html [L]

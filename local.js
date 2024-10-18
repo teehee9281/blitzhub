@@ -183,12 +183,8 @@ function openWindow(url, title, favicon) {
 }
 
 
-function SuggestionGames() {
-  window.open("https://forms.gle/h9paBMUxXNSpVNbC6", "_blank");
-}
-
-function SuggestionApps() {
-  window.open("https://forms.gle/zN5qsxYC7TxUSqt37", "_blank");
+function Suggestion() {
+  window.open("https://forms.gle/ds4gGs5zM2ZTB3Wq8", "_blank");
 }
 
 function openFnaf1() {
@@ -385,13 +381,26 @@ function openBottle() {
   openWindow('https://geometryspot.help/bottleflip3d.html', 'Google Docs', 'CloakIMGs/docs.ico');
 }
 
+function openTunnelRush() {
+  openWindow('https://tunnelrushgame.io/game/tunnel-rush/', 'Google Docs', 'CloakIMGs/docs.ico');
+}
+
+function openSnowRider() {
+  openWindow('https://itsvijaysingh.github.io/Snow-Rider3D/', 'Google Docs', 'CloakIMGs/docs.ico')
+}
+
 // Apps
 
 function cymath() {
   openWindow('https://cymath.com', 'Google Docs', 'CloakIMGs/docs.ico'); 
 }
 function Gemini() {
- openWindow('https://codeezyx.github.io/blitz.ai/', 'Google Docs', 'CloakIMGs/docs.ico');
+  openWindow('https://codeezyx.github.io/blitz.ai/', 'Google Docs', 'CloakIMGs/docs.ico');
+}
+
+function Mathway() {
+  alert("On the screen keypad, click a number and click backspace on the keypad (the arrow facing left on the bottom right) to enable typing in your equation (May take multiple attempts)");
+  openWindow('https://www.mathway.com/', 'Google Docs', 'CloakIMGs/docs.ico');
 }
 
 
